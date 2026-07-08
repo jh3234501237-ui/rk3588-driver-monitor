@@ -81,3 +81,7 @@ cd edge
 ## 相关资料
 
 - 📄 [作品设计报告](docs/作品设计报告.pdf)
+
+- 🎬 **[📺 Bilibili 演示视频：RK3588端侧AI实时监测 + DeepSeek认知决策](https://www.bilibili.com/video/BV16iM36dEdo/)**
+  - 💡 *点击标题或下方链接即可跳转观看*
+  - 🔗 备用链接：<https://www.bilibili.com/video/BV16iM36dEdo/>
