@@ -1,0 +1,10 @@
+{
+  "first_seen": "2026-06-08 15:16:04",
+  "last_seen": "2026-06-11 11:03:37",
+  "total_requests": 340,
+  "risk_counter": {
+    "WHEEL_OFF": 21,
+    "HEAD_DOWN": 319
+  },
+  "high_risk_count": 250
+}

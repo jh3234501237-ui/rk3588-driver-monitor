@@ -1,0 +1,4 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.sourceDirectory": "/home/elf/rknn_model_zoo/rknn_model_zoo-2.1.0/examples/yolov8_pose/lvgl_display/lv_port_linux_frame_buffer/lv_drivers"
+}
