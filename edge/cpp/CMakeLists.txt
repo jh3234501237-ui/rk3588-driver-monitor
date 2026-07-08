@@ -27,29 +27,6 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../../../utils/ utils.out)
 
 set(CMAKE_INSTALL_RPATH "$ORIGIN/lib")
 
-# # ========== YOLOv5 目标检测进程 ==========
-#     yolov5_postprocess.cc
-#     rknpu2_yolov5/yolov5.cc
-# )
-
-# # 设置链接库
-# target_link_libraries(object_detector
-#     imageutils      # 来自 utils.out
-#     fileutils       # 来自 utils.out
-#     imagedrawing    # 来自 utils.out
-#     /usr/lib/librknnrt.so
-#     pthread
-#     rt
-#     m
-# )
-
-# # 设置头文件搜索路径
-# target_include_directories(object_detector PRIVATE
-#     ${CMAKE_CURRENT_SOURCE_DIR}                # 当前目录，用于找 yolov5_postprocess.h 等
-#     ${CMAKE_CURRENT_SOURCE_DIR}/rknpu2_yolov5  # 找 yolov5.cc 中可能引用的内部头文件
-#     ${CMAKE_SOURCE_DIR}/utils                  # 关键！添加utils目录，让编译器能找到 common.h 和 image_utils.h
-# )
-
 # 摄像头采集进程
 add_executable(gst_producer
     gst_cam.c

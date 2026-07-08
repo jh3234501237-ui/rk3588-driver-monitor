@@ -94,22 +94,6 @@ typedef struct {
 
 } BehaviorResult;
 
-// 进程内部状态（用于平滑、历史）
-// typedef struct {
-//     float prev_keypoints[17][2];  // 上一帧关键点
-//     float ear_dist_norm_left;     // 归一化距离
-//     float eye_dist;               // 眼距（归一化分母）
-//     int init;                     // 是否已初始化
-// } EngineState;
-
-// typedef struct {
-//     float temperature;
-//     float humidity;
-//     int   air_quality;
-//     int   fan_status;
-//     float target_temp;
-// } EnvData;
-
 // 温湿度共享内存键值
 #define ENV_SHM_KEY 0x567A
 
